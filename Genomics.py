@@ -24,7 +24,7 @@ def makeDNA(len):
     if len % 3 == 0:
         for i in range(len):
             dna.append(random.choice(codons))
-        return 'ATG' + str(dna) + 'TAG'
+    return dna
 
 
 def isValidDNA(genom):
