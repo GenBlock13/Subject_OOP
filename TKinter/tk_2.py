@@ -15,6 +15,8 @@ def fahrenheit_to_celsius():
 window = tk.Tk()
 window.title("Конвертер температуры")
 window.resizable(width=False, height=False)
+window.geometry('280x64')
+window['bg'] = '#298f25'
 
 # Создание рамки для ввода значения по Фаренгейту через виджет
 # однострочного текстового поля вместе с ярлыком.

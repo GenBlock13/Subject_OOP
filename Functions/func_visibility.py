@@ -62,6 +62,7 @@ def split_numbers(list):
             answer.append(i)
     return tuple(answer)
 
+
 def modern_print(string):
     if modern_print.__dict__.get('printed_strings') is None:
         modern_print.printed_strings = set()

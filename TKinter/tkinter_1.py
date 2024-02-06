@@ -17,8 +17,8 @@ label = tk.Label(
     text="Привет, Tkinter!",
     fg="white",
     bg="black",
-    width=60,
-    height=40
+    width=20,
+    height=15
 )
 
 button_close = tk.Button(
@@ -30,9 +30,9 @@ button_close = tk.Button(
 
 )
 
-label.pack()
+label.pack(fill=tk.BOTH)
 button_close.pack(
     fill=tk.Y, side=tk.LEFT
 )
-greeting.pack(fill = tk.Y, side = tk.LEFT)
+greeting.pack(fill = tk.BOTH, side = tk.LEFT)
 window.mainloop()
